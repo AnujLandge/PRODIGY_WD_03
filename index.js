@@ -1,7 +1,7 @@
 /**
  * Celestial Tic-Tac-Toe - Core Application Logic
  * Premium, interactive vanilla HTML5/CSS3/JS game.
- */
+ */ 
 
 document.addEventListener('DOMContentLoaded', () => {
   
