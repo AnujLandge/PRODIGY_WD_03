@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-# Celestial Tic-Tac-Toe macOS App Build Script
+# Celestial Tic-Tac-Toe macOS App Build Script 
 
 APP_NAME="Celestial Tic-Tac-Toe"
 APP_DIR="${APP_NAME}.app"
