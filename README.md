@@ -2,48 +2,57 @@
 
 # Celestial Tic-Tac-Toe
 
-An advanced and visually immersive Tic-Tac-Toe web application developed using HTML, CSS, and JavaScript. This project goes beyond the traditional game by incorporating intelligent AI opponents, multiple visual themes, score persistence, sound effects, animations, and a fully responsive user interface.
+A premium Tic-Tac-Toe web application built using HTML, CSS, and JavaScript featuring intelligent AI opponents, multiple visual themes, score persistence, sound effects, animations, and responsive gameplay.
+
+## Overview
+
+This project extends the traditional Tic-Tac-Toe experience with modern UI design, advanced AI logic, dynamic animations, audio feedback, and local data persistence.
 
 ## Features
 
 ### Game Modes
-
-* Player vs Player (Local Multiplayer)
-* Player vs AI
+- Player vs Player
+- Player vs AI
 
 ### AI Difficulty Levels
+- Easy
+- Medium
+- Invincible (Minimax Algorithm)
 
-* Easy Mode
-* Medium Mode
-* Invincible Mode (Minimax Algorithm)
+### Themes
+- Space Glass
+- Cyberpunk
+- 8-Bit Arcade
+- Aurora Light
 
-### Visual Experience
+### Gameplay Features
+- Score Tracking
+- Match History
+- Undo Last Move
+- Persistent Statistics
+- Hover Move Preview
+- Win Detection System
+- Dynamic Winning Line Animation
 
-* Space Glass Theme
-* Cyberpunk Theme
-* 8-Bit Arcade Theme
-* Aurora Light Theme
+### Visual Effects
+- Confetti Celebrations
+- Glassmorphism UI
+- Responsive Design
+- Smooth Animations
+- Mobile-Friendly Layout
 
-### Advanced Functionality
-
-* Score Tracking System
-* Match History
-* Undo Move Feature
-* Persistent Statistics using Local Storage
-* Winning Line Animation
-* Confetti Celebration Effects
-* Responsive Design
-* Mobile-Friendly Layout
-* Hover Move Preview
-* Sound Effects using Web Audio API
+### Audio
+- Web Audio API Sound Effects
+- Toggle Sound On/Off
+- Retro Game Feedback Sounds
 
 ## Technologies Used
 
-* HTML5
-* CSS3
-* JavaScript (ES6)
-* Web Audio API
-* Local Storage API
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Web Audio API
+- Local Storage API
 
 ## Project Structure
 
@@ -53,57 +62,46 @@ PRODIGY_WD_03/
 ├── index.html
 ├── index.css
 ├── index.js
+├── main.swift
+├── build_mac_app.sh
 └── README.md
 ```
 
 ## How to Run
 
-### Method 1: Open Directly
+### Browser Version
 
-1. Download or clone the repository.
-2. Extract the project files if necessary.
-3. Open the project folder.
-4. Double-click `index.html`.
-5. The game will launch in your default browser.
+1. Clone or download the repository.
+2. Open the project folder.
+3. Open `index.html` in your browser.
 
-### Method 2: Visual Studio Code
+### VS Code
 
-1. Open the project folder in VS Code.
+1. Open the project folder in Visual Studio Code.
 2. Install the Live Server extension.
 3. Right-click `index.html`.
 4. Select **Open with Live Server**.
-5. Play the game in your browser.
 
-## Gameplay
+### macOS Native App
 
-### Player vs Player
-
-* Enter player names.
-* Take turns placing X and O.
-* First player to align three symbols wins.
-
-### Player vs AI
-
-* Select your preferred difficulty.
-* Challenge the AI.
-* Try to beat the Invincible Mode powered by the Minimax Algorithm.
+1. Build the application using `build_mac_app.sh`.
+2. Launch the generated macOS application.
+3. Play directly from the native desktop app.
 
 ## Learning Outcomes
 
-* Game Logic Development
-* Artificial Intelligence Fundamentals
-* Minimax Algorithm Implementation
-* DOM Manipulation
-* Event Handling
-* Local Storage Management
-* Responsive Web Design
-* JavaScript Application Architecture
-* Audio Integration
-* User Experience Design
+- JavaScript Game Development
+- DOM Manipulation
+- AI Game Logic
+- Minimax Algorithm
+- Local Storage Management
+- Responsive Web Design
+- Audio Integration
+- User Experience Design
 
 ## Task Objective
 
-Develop a Tic-Tac-Toe web application with an interactive interface, intelligent gameplay mechanics, responsive design, and engaging user experience using HTML, CSS, and JavaScript.
+Develop an interactive Tic-Tac-Toe web application with intelligent gameplay mechanics, responsive design, and engaging user experience using HTML, CSS, and JavaScript.
 
 ## Author
 
