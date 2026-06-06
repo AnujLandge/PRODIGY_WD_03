@@ -18,7 +18,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, WKNavigationDelegate, WKUIDe
             height: windowHeight
         )
         
-        // Initialize Cocoa window
+        // Initialize Cocoa window 
         window = NSWindow(
             contentRect: rect,
             styleMask: [.titled, .closable, .miniaturizable],
